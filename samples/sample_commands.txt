@@ -1,0 +1,378 @@
+pylon_debug>pwr
+@
+PoerVot  Cr  Ter  lw  Tigh  Vlo  Vhigh  Base.St  Volt.St  Crr.St  Temp.St Coulomb  Time               B.V.St   B.Tt  
+1     50696 984  23000  1000  21000 378   3381   Charge   Normal   orml   Normal   80%      2024-04-05 17:44:13  Normal   Normal  
+2     50662  9991   200  21000  22000  3376  338   Charge   Noral   Normal Nomal  77%      202-0-05 17:44:13  Normal   Normal  
+3     -     -     -      -      -      -      -    Absent   -        -             -      -               -      -     
+5     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+6     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+7     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+8     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+Command completed successfully
+
+ylon_debug>pwr 1
+@
+ ----------------------------
+ Power  1
+
+ Voltage         : 50898       mV
+ Current         : 11636       mA
+ Temperature     : 24000       mC
+ Coulomb         : 89          %
+ Total Coulomb   : 50000       mAH
+ Max Voltage     : 54000       mV
+ Charge Times    : 51333       
+ Basic Status    : Charge  
+ Charge Sec.     : 8786    s
+ Volt Status     : Normal  
+ Current Status  : Normal  
+ Tmpr. Status    : Normal  
+ Coul. Status    : Normal  
+ Soh. Status     : Normal  
+ Heater Status   : OFF     
+ Protect ENA     : BOV BHV BLV BUV POV PHV PLV PUV CBOT CBHT CBLT CBUT DBOT DBHT DBLT DBUT POT PHT PLT PUT COC COC2 COCA DOCA DOC DOC2 SC LCOUL 
+ Bat Events      : 0x0        
+ Power Events    : 0x0        
+ System Fault    : 0x0        
+ ----------------------------
+Command completed successfully
+
+pylon_debug>pwr 2
+@
+ ----------------------------
+ Power  2
+
+ Voltage         : 50888       mV
+ Current         : 12848       mA
+ Temperature     : 23000       mC
+ Coulomb         : 89          %
+ Total Coulomb   : 50000       mAH
+ Max Voltage     : 54000       mV
+ Charge Times    : 0           
+ Basic Status    : Charge  
+ Charge Sec.     : 0       s
+ Volt Status     : Normal  
+ Current Status  : Normal  
+ Tmpr. Status    : Normal  
+ Coul. Status    : Normal  
+ Soh. Status     : Normal  
+ Heater Status   : OFF     
+ Protect ENA     : BOV BHV BLV BUV POV PHV PLV PUV CBOT CBHT CBLT CBUT DBOT DBHT DBLT DBUT POT PHT PLT PUT COC COC2 COCA DOCA DOC DOC2 SC LCOUL 
+ Bat Events      : 0x0        
+ Power Events    : 0x0        
+ System Fault    : 0x0        
+ ----------------------------
+Command completed successfully
+
+pylon_debug>info
+@
+Device ddress      : 1
+Manufacturer        : Pylon
+Device name         : US2KBPL
+Board version       : PHANTOMSAV10R03
+Main Soft version   : B67.13.0.0
+Sft  version       : V3.4
+Boot  version       : V2.
+Comm version        : V2.0
+Release Date        : 21-08-07
+Barcode           : HTBH02209C02811
+
+Specification       : 48V/50AH
+Cel Number         : 15
+ax Dischg Curr     : -100000mA
+EPONPort rate       : 120000mA
+Console Port rate   : 115200
+Command completed successfully
+$$
+
+pylon_debug>info 1
+@
+Deve addres     : 1
+                   Manufacturer       : Pylon
+Board version       : PHANTOMSAV10R03
+Main Soft version   : B67.13.0.0
+Soft  version       : V3.4
+Boot  version       : V2.0
+Comm version        : V2.0
+Release Date        : 21-08-07
+Barcode             : HPTBH02209C02811
+
+Specification       : 48V/50AH
+Cell Number         : 15
+Max Dischg Curr     : -100000mA
+Max Charge Curr     : 102000mA
+EPONPort rate       : 1200
+Console Port rate   : 115200
+Command completed successfully
+$$
+
+
+pylon_debu>info 2
+@
+Device address      : 2
+Manufacurer        : Pylon
+Device nae         : US2KBPL
+Board version       : PHANTOMSAV10R03
+Main Soft version    B67.13.0.0
+Soft  version       : V3.4
+oot  vesin       : V1.4
+Comm versio        : V2.0
+Releate       : 21-08-07
+Barcode            : PPTBH02198C17441
+
+Specficaton       : 48V/50AH
+Cell Number         : 15
+Max DischgCurr     : -100000mA
+Max Charge Curr     : 102000mA
+EPONPort rate      : 1200
+Console Port rate   : 1152
+Command completed successfully
+
+pylo_dbu>bat
+Battery  Volt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  Coulomb     
+0        3379     9866     21000    Charge       Normal       Normal       Normal        81%      39700 mAH
+1        3380     9866     21000    Charge       Normal       Normal       Normal        81%      39712 mAH
+2        3379     9866     21000    Charge       Normal       Normal       Normal        81%      39716 mAH
+3        3378     9866     21000    Charge       Normal       Normal       Normal        81%      39696 mAH
+4        3380     9866     21000    Charge       Normal       Normal       Normal        81%      39716 mAH
+5        3379     9866     21000    Charge       Normal       Normal       Normal        81%      39716 mAH
+6        3379     9866     21000    Charge       Normal       Normal       Normal        81%      39712 mAH
+7        3380     9866     21000    Charge       Normal       Normal       Normal        81%      39704 mAH
+8        3378     9866     21000    Charge       Normal       Normal       Normal        81%      39712 mAH
+9        3382     9866     21000    Charge       Normal       Normal       Normal        81%      39708 mAH
+10       3379     9866     21000    Charge       Normal       Normal       Normal        81%      39708 mAH
+11       3379     9866     21000    Charge       Normal       Normal       Normal        81%      39716 mAH
+12       3380     9866     21000    Charge       Normal       Normal       Normal        81%      39712 mAH
+13       3379     9866     21000    Charge       Normal       Normal       Normal        81%      39716 mAH
+14       3381     9866     21000    Charge       Normal       Normal       Normal        81%      39704 mAH
+Command completed successfully
+
+pylon_debug>bat 1
+@
+Battery  Volt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  Coulomb     
+0        3381     10071    21000    Charge       Normal       Normal       Normal        81%      39744 mAH
+1        3379     10071    21000    Charge       Normal       Normal       Normal        81%      39756 mAH
+2        3379     10071    21000    Charge       Normal       Normal       Normal        81%      39760 mAH
+3        3379     10071    21000    Charge       Normal       Normal       Normal        81%      39740 mAH
+4        3381     10071    21000    Charge       Normal       Normal       Normal        81%      39760 mAH
+5        3381     10071    21000    Charge       Normal       Normal       Normal        81%      39760 mAH
+6        3379     10071    21000    Charge       Normal       Normal       Normal        81%      39756 mAH
+7        3379     10071    21000    Charge       Normal       Normal       Normal        81%      39748 mAH
+8        3378     10071    21000    Charge       Normal       Normal       Normal        81%      39756 mAH
+9        3381     10071    21000    Charge       Normal       Normal       Normal        81%      39752 mAH
+10       3380     10071    21000    Charge       Normal       Normal       Normal        81%      39752 mAH
+11       3378     10071    21000    Charge       Normal       Normal       Normal        81%      39760 mAH
+12       3380     10071    21000    Charge       Normal       Normal       Normal        81%      39756 mAH
+13       3378     10071    21000    Charge       Normal       Normal       Normal        81%      39760 mAH
+14       3380     10071    21000    Charge       Normal       Normal       Normal        81%      39748 mAH
+Command completed successfully
+
+pylon_debug>bat 2
+@
+0        3378     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+1        3377     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+2        3378     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+3        3379     9980     22000    Charge       Normal       Normal       Normal        79%      36070 mAH
+4        3378     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+5        3378     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+6        3378     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+7        3377     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+8        3377     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+9        3378     9980     22000    Charge       Normal       Normal       Normal        79%      36098 mAH
+10       3378     9980     21000    Charge       Normal       Normal       Normal        79%      36098 mAH
+11       3378     9980     21000    Charge       Normal       Normal       Normal        79%      36098 mAH
+12       3377     9980     21000    Charge       Normal       Normal       Normal        79%      36098 mAH
+13       3378     9980     21000    Charge       Normal       Normal       Normal        79%      36098 mAH
+14       3379     9980     21000    Charge       Normal       Normal       Normal        79%      36098 mAH
+Command completed successfully
+
+pylon_debug>socd
+@
+BQ3z100 Data
+------------------------------
+Pack Current        : 11952        mA
+state of charge     : 85           %
+Remain Capacity     : 38560        mAH
+------------------------------
+Command completed successfully
+$$
+pylon_debug>socd 1
+@
+BQ34z100 Data
+------------------------------
+Pack Volt           : 50790        mv
+Pack Current        : 12044        mA
+state o charge     : 85           %
+Remain Capacity     : 38576        mAH
+------------------------------
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>socd 2
+@
+BQ34z100 Data
+------------------------------
+Pack Volt           : 50805        mv
+Pack Current        : 12064        mA
+state of charge     : 86           %
+Remain Capacity     : 38584        mAH
+------------------------------
+Command completed successfully
+
+pylon_debug> stat
+Device address           1
+Data Items      :     1919
+HisData Items   :     2041
+MiscData Items  :      130
+Charge Cnt.     :        0
+Discharge Cnt.  :        0
+Charge Times    :    39890
+Status Cnt.     :     1051
+Idle Times      :    27914
+COC Times       :        0
+DOC Times       :        0
+COCA Times      :        0
+DOCA Times      :        1
+SC Times        :        0
+Bat OV Times    :       53
+Bat HV Times    :       17
+Bat LV Times    :        0
+Bat UV Times    :        0
+Bat SLP Times   :        0
+Pwr OV Times    :        0
+Pwr HV Times    :        0
+Pwr LV Times    :        0
+Pwr UV Times    :        0
+Pwr SLP Times   :        0
+COT Times       :        0
+CUT Times       :        0
+DOT Times       :        0
+DUT Times       :        0
+CHT Times       :        0
+CLT Times       :        0
+DHT Times       :        0
+DLT Times       :        0
+Shut Times      :      462
+Reset Times     :       84
+RV Times        :        0
+Input OV Times  :        0
+SOH Times       :       33
+BMICERR Times   :        0
+CYCLE Times     :      185
+Pwr Percent     :       88
+Pwr Coulomb     : 154915200
+Dsg Cap         :  9258059
+HT@0.5C Cnt     :        0
+LT@0.5C Cnt     :        0
+HT Cnt          :        0
+LT Cnt          :        0
+LV Cnt          :        0
+LifeWarn Times  :        0
+LifeAlarm Times :        0
+Command completed successfully
+
+
+pylon_debug> stat 1
+Device address           1
+Data Items      :     1919
+HisData Items   :     2041
+MiscData Items  :      130
+Charge Cnt.     :        0
+Discharge Cnt.  :        0
+Charge Times    :    39890
+Status Cnt.     :     1051
+Idle Times      :    27914
+COC Times       :        0
+DOC Times       :        0
+COCA Times      :        0
+DOCA Times      :        1
+SC Times        :        0
+Bat OV Times    :       53
+Bat HV Times    :       17
+Bat LV Times    :        0
+Bat UV Times    :        0
+Bat SLP Times   :        0
+Pwr OV Times    :        0
+Pwr HV Times    :        0
+Pwr LV Times    :        0
+Pwr UV Times    :        0
+Pwr SLP Times   :        0
+COT Times       :        0
+CUT Times       :        0
+DOT Times       :        0
+DUT Times       :        0
+CHT Times       :        0
+CLT Times       :        0
+DHT Times       :        0
+DLT Times       :        0
+Shut Times      :      462
+Reset Times     :       84
+RV Times        :        0
+Input OV Times  :        0
+SOH Times       :       33
+BMICERR Times   :        0
+CYCLE Times     :      185
+Pwr Percent     :       88
+Pwr Coulomb     : 154915200
+Dsg Cap         :  9258059
+HT@0.5C Cnt     :        0
+LT@0.5C Cnt     :        0
+HT Cnt          :        0
+LT Cnt          :        0
+LV Cnt          :        0
+LifeWarn Times  :        0
+LifeAlarm Times :        0
+Command completed successfully
+
+
+pylon_debug> stat 2
+Device address           2
+Data Items      :     1919
+HisData Items   :     2041
+MiscData Items  :      130
+Charge Cnt.     :        0
+Discharge Cnt.  :        0
+Charge Times    :    39890
+Status Cnt.     :     1051
+Idle Times      :    27914
+COC Times       :        0
+DOC Times       :        0
+COCA Times      :        0
+DOCA Times      :       27
+SC Times        :        0
+Bat OV Times    :        0
+Bat HV Times    :        0
+Bat LV Times    :        0
+Bat UV Times    :        0
+Bat SLP Times   :        0
+Pwr OV Times    :        0
+Pwr HV Times    :        0
+Pwr LV Times    :        0
+Pwr UV Times    :        0
+Pwr SLP Times   :        0
+COT Times       :        0
+CUT Times       :        0
+DOT Times       :        0
+DUT Times       :        0
+CHT Times       :       13
+CLT Times       :        5
+DHT Times       :        8
+DLT Times       :        3
+Shut Times      :       55
+Reset Times     :       88
+RV Times        :        0
+Input OV Times  :        0
+SOH Times       :        3
+BMICERR Times   :        0
+CYCLE Times     :      837
+Pwr Percent     :       89
+Pwr Coulomb     : 146903400
+Dsg Cap         : 41861297
+HT@0.5C Cnt     :        0
+LT@0.5C Cnt     :        0
+HT Cnt          :      169
+LT Cnt          :       84
+LV Cnt          :        0
+LifeWarn Times  :        0
+LifeAlarm Times :        0
+Command completed successfully
