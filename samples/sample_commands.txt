@@ -75,7 +75,7 @@ Sft  version       : V3.4
 Boot  version       : V2.
 Comm version        : V2.0
 Release Date        : 21-08-07
-Barcode           : HTBH02209C02811
+Barcode           : HTBH022*****
 
 Specification       : 48V/50AH
 Cel Number         : 15
@@ -95,7 +95,7 @@ Soft  version       : V3.4
 Boot  version       : V2.0
 Comm version        : V2.0
 Release Date        : 21-08-07
-Barcode             : HPTBH02209C02811
+Barcode             : HPTBH02******
 
 Specification       : 48V/50AH
 Cell Number         : 15
@@ -118,7 +118,7 @@ Soft  version       : V3.4
 oot  vesin       : V1.4
 Comm versio        : V2.0
 Releate       : 21-08-07
-Barcode            : PPTBH02198C17441
+Barcode            : PPTBH021****
 
 Specficaton       : 48V/50AH
 Cell Number         : 15
