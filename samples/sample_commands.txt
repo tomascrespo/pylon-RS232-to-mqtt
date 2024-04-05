@@ -10,7 +10,7 @@ PoerVot  Cr  Ter  lw  Tigh  Vlo  Vhigh  Base.St  Volt.St  Crr.St  Temp.St Coulom
 8     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
 Command completed successfully
 
-ylon_debug>pwr 1
+pylon_debug>pwr 1
 @
  ----------------------------
  Power  1
