@@ -7,5 +7,7 @@ This project is a fork of the great project [pytes_serial](https://github.com/ch
 I want to use some more commands to get some more data, like command *info* or command *pwr* (whithout battery pack number)
 I also want to use *bat* command in each loop, to get battery cells voltage and temperature published to my MQTT brokker. 
 
+You can see the return of some console commands in [this file](samples/sample_commands.txt)
+
 ### @todo
 Absolutely all
