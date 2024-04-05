@@ -1,14 +1,15 @@
 pylon_debug>pwr
-@
-PoerVot  Cr  Ter  lw  Tigh  Vlo  Vhigh  Base.St  Volt.St  Crr.St  Temp.St Coulomb  Time               B.V.St   B.Tt  
-1     50696 984  23000  1000  21000 378   3381   Charge   Normal   orml   Normal   80%      2024-04-05 17:44:13  Normal   Normal  
-2     50662  9991   200  21000  22000  3376  338   Charge   Noral   Normal Nomal  77%      202-0-05 17:44:13  Normal   Normal  
-3     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -     
+Power Volt   Curr   Tempr  Tlow   Thigh  Vlow   Vhigh  Base.St  Volt.St  Curr.St  Temp.St  Coulomb  Time                 B.V.St   B.T.St  
+1     50999  10569  24000  22000  22000  3393   3403   Charge   Normal   Normal   Normal   89%      2024-04-05 18:24:33  Normal   Normal  
+2     50999  12032  24000  22000  23000  3397   3402   Charge   Normal   Normal   Normal   89%      2024-04-05 18:24:31  Normal   Normal  
+3     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+4     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
 5     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
 6     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
 7     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
 8     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
 Command completed successfully
+
 
 pylon_debug>pwr 1
 @
